@@ -1,0 +1,14 @@
+
+<form #registerlogin = "ngForm" (ngSubmit) = "onClickSubmit(registerlogin.value)" >
+    <label>Device Name:</label>
+      <input type = "text" name = "deviceName" placeholder = "name" ngModel>
+      <br/><br/>
+      <label>Device Type:</label>
+      <input type = "text" name = "type" placeholder = "type" ngModel>
+      <br/><br/>
+      <label>Device Description:</label>
+      <input type = "text" name = "description" placeholder = "description" ngModel>
+      <br/><br>
+      <input type = "submit" value = "submit">
+   </form>
+  
